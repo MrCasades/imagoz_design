@@ -54,7 +54,7 @@ input{
 .main-headers-subplace{
     background: #FFFFFF;
     border: 1px solid rgba(30, 144, 255, 1);
-    width: 12%;
+    width: 20%;
     height: 10%;
     padding-left: 1%;
     font-family: Arial;
@@ -103,8 +103,8 @@ header{
     z-index: 10;
 }
 
-header img{
-    margin: 1% 1%;
+header a img{
+    margin: 3% 5%;
     width: 132px;
     height: 132px;
 }
@@ -237,7 +237,7 @@ main .post-place-1{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 3px black;
     border-radius: 10px;
-
+    text-decoration: none;
 }
 
 main .post-place-1:hover {
@@ -312,4 +312,15 @@ main .day-reflection{
 
 main .footer-prev{
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12%;
+}
+
+main .descr-txt-place{
+    margin-left: 2%;
+    width: 53%;
+}
+
+main .mp-description{
+    font-size: 0.7rem;
 }
