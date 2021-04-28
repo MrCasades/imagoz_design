@@ -324,3 +324,15 @@ main .descr-txt-place{
 main .mp-description{
     font-size: 0.7rem;
 }
+
+/*Стиль новостей и статей*/
+
+article .article-head{
+    margin-left: 10%;
+    max-width: 75%; 
+    height: 700px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 3px black;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
