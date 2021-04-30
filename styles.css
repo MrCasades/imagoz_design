@@ -329,11 +329,55 @@ main .mp-description{
 
 article .article-head{
     margin-left: 10%;
-    max-width: 75%; 
+    max-width: 75%;  
     height: 700px;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 3px black;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
+}
+
+article .article-head-top{
+    display: flex;
+    margin-left: 2%;
+    width: 100%;
+}
+
+article .article-info{
+   width: 30%;
+}
+
+article .article-rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 2%;
+    width: 12%;
+    height: 3.8rem;
+    background: white;
+    border-radius: 10px;
+}
+
+article .article-rating img{
+    margin-top: 1%;
+    padding-left: 3%;
+    width: 35%;
+    height: 35%;
+    
+}
+
+article h1{
+    font-size: 5rem;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+article .m-content{
+    margin-top: 2%;
+    font-size: 2rem;
+    margin-left: 10%;
+    max-width: 75%; 
 }
