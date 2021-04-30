@@ -27,6 +27,11 @@ input{
     border-radius: 5px;
 }
 
+.m-content{
+    margin-left: 10%;
+    max-width: 75%; 
+}
+
 .main-headers{
     max-width: 100%;
     margin: 1% 0 0 1%;
@@ -328,8 +333,6 @@ main .mp-description{
 /*Стиль новостей и статей*/
 
 article .article-head{
-    margin-left: 10%;
-    max-width: 75%;  
     height: 700px;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 3px black;
@@ -375,9 +378,7 @@ article h1{
     margin-left: 15%;
 }
 
-article .m-content{
+article .a-content{
     margin-top: 2%;
     font-size: 2rem;
-    margin-left: 10%;
-    max-width: 75%; 
 }
