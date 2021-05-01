@@ -395,3 +395,7 @@ article .tags-place{
 article .tags-place .tgs{
     margin-left: 1%;
 }
+
+article .recomm-place{
+    display: flex;
+}
