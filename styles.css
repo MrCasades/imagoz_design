@@ -382,3 +382,16 @@ article .a-content{
     margin-top: 2%;
     font-size: 2rem;
 }
+
+article .like-place{
+    margin-top: 2%;
+    font-size: 2rem;
+}
+
+article .tags-place{
+    display: flex;
+}
+
+article .tags-place .tgs{
+    margin-left: 1%;
+}
