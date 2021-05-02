@@ -405,6 +405,10 @@ article .comment{
     margin-top: 1rem;
 }
 
+article .comment-ans{
+    margin-left: 80%;
+}
+
 article .comment-line{
     margin-top: 1rem;
     width: 90%;
