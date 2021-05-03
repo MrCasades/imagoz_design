@@ -332,13 +332,16 @@ main .mp-description{
 
 /*Стиль новостей и статей*/
 
+article{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 article .article-head{
     height: 700px;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 3px black;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100% 100%;    
     border-radius: 10px;
 }
 
@@ -405,6 +408,11 @@ article .comment{
     margin-top: 1rem;
 }
 
+article .comment-person-pl img{
+    width: 90px;/*Параметры аватара*/
+    height: 90px;
+}
+
 article .comment-ans{
     margin-left: 80%;
 }
@@ -419,4 +427,22 @@ article .comment-line{
     flex-shrink: 0;
     flex-grow: 0;
     transform: rotate(180deg);
+}
+
+article .zen-ch {
+    
+}
+
+article .zen-ch a{
+    text-decoration: none;
+}
+
+article .zen-ch img{
+    width: 3%;
+    height: 3%;
+}
+
+article .zen-ch .zen-ch-title{
+    font-size: 1.5rem;
+    vertical-align: 45%; 
 }
