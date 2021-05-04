@@ -56,6 +56,11 @@ input{
     border-radius: 10px 10px 0px 0px;
 }
 
+.main-headers-place a{
+    color: white;
+    text-decoration: none;
+}
+
 .main-headers-subplace{
     background: #FFFFFF;
     border: 1px solid rgba(30, 144, 255, 1);
@@ -69,6 +74,11 @@ input{
     font-size: 1.2rem;
     color: #1e90ff;
     border-radius: 10px 10px 0px 0px;
+}
+
+.main-headers-subplace a{
+    color: #1e90ff;
+    text-decoration: none;
 }
 
 .main-headers-txtplace{
