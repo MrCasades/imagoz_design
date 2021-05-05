@@ -237,11 +237,8 @@ main {
 main .newsblock{
     display: flex;
     /* flex-direction: column; */
-    margin-left: 10%;
     flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 75%; 
-    
+    justify-content: space-around;     
 }
 
 main .post-place-1{
@@ -275,10 +272,8 @@ main .post-place-1:hover {
 main .main-post{
     display: flex;
     /* flex-direction: column; */
-    margin-left: 10%;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 75%; 
     
 }
 
