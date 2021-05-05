@@ -398,10 +398,11 @@ article .like-place{
 
 article .tags-place{
     display: flex;
+    padding-bottom: 1rem;
 }
 
 article .tags-place .tgs{
-    margin-left: 1%;
+    margin-left: 1%;   
 }
 
 article .recomm-place{
