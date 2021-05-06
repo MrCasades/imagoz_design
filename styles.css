@@ -360,6 +360,11 @@ article .article-info{
    width: 30%;
 }
 
+article .article-info a{
+    text-decoration: none;
+    color: white;
+ }
+
 article .article-rating{
     display: flex;
     justify-content: center;
@@ -447,4 +452,33 @@ article .zen-ch img{
 article .zen-ch .zen-ch-title{
     font-size: 1.5rem;
     vertical-align: 45%; 
+}
+
+/*Аккаунт*/
+main .acc-m{
+    display: flex;
+    margin-top: 1rem;
+}
+
+main .ava-pl{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+}
+
+main .ava-pl img{
+    height: 50%;
+    width: 50%;
+    
+}
+
+main .ava-pl button{
+    margin-top: 0.5rem;
+    width: 50%;
+}
+
+main .acc-info-pl{
+    height: 50%;
+    width: 50%;
 }
