@@ -265,8 +265,12 @@ main .post-place-1:hover {
 }
 
 .post-place-1 .post-bottom-1{
-    margin: 6rem auto auto 1rem;
+    margin: 4rem auto auto 1rem;
     font-size: 1.7rem;
+}
+
+main .post-rubrics{
+    background: red;
 }
 
 main .main-post{
@@ -300,7 +304,7 @@ main .post-place-2:hover {
 }
 
 .post-place-2 .post-bottom-1{
-    margin: 10rem auto auto 1rem;
+    margin: 7rem auto auto 1rem;
     font-size: 2rem;
 }
 
