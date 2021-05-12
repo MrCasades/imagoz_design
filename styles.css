@@ -403,6 +403,7 @@ article .a-content{
 article .like-place{
     margin-top: 2%;
     font-size: 2rem;
+    max-height: 25rem;
 }
 
 article .tags-place{
@@ -410,8 +411,35 @@ article .tags-place{
     padding-bottom: 1rem;
 }
 
+article .like-place .btn_vot{
+    height: 40px;
+    width: 60px;
+    font-weight: bold;
+    font-size: 2rem;
+    background:#FFFFFF;
+    color: #1e90ff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+article .like-place .btn_vot:hover{  
+    background:#1e90ff;
+    color:#FFFFFF;
+}
+
 article .tags-place .tgs{
-    margin-left: 1%;   
+    margin-left: 1%; 
+    background: #1e90ff; 
+    color: #FFFFFF; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+article .tags-place .tgs:hover{
+    
+    background: #FFFFFF; 
+    color: #1e90ff;
 }
 
 article .recomm-place{
