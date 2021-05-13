@@ -27,6 +27,11 @@ input{
     border-radius: 5px;
 }
 
+.btn_1:hover{
+    background:#1e90ff;
+    color: #FFFFFF;
+}
+
 .m-content{
     margin-left: 10%;
     max-width: 75%; 
@@ -375,14 +380,11 @@ article .article-rating{
     align-items: center;
     margin-left: 50%;
     margin-top: 2%;
-    width: 12%;
-    height: 3.8rem;
-    background: white;
-    border-radius: 10px;
+    width: 15%; 
 }
 
 article .article-rating img{
-    margin-top: 1%;
+    margin: 1% 2% 2% 1%;
     padding-left: 3%;
     width: 35%;
     height: 35%;
@@ -446,30 +448,31 @@ article .recomm-place{
     display: flex;
 }
 
-article .comment{
+.comment{
     display: flex;
     margin-top: 1rem;
 }
 
-article .comment-form{
+.comment-form{
     margin-top: 1rem;
     margin-left: 15%;
 }
 
-article .comment-textarea{
+.comment-textarea{
     width: 90%;
 }
 
-article .comment-person-pl img{
+.comment-person-pl img{
     width: 90px;/*Параметры аватара*/
     height: 90px;
 }
 
-article .comment-ans{
+.comment-ans{
     margin-left: 80%;
+    font-weight: bold;
 }
 
-article .comment-line{
+.comment-line{
     margin-top: 1rem;
     width: 90%;
     height: 0;

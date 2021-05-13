@@ -59,7 +59,7 @@
         <div class="acc-m m-content">
             <div class="ava-pl">
                 <img src="../avatars/ava-def.jpg" alt="ava"/>
-                <button><a href="#gallery">Настройки</a></button>
+                <button class="btn_1">Настройки</button>
             </div> 
             <div class="acc-info-pl">
                 <h3>Инфо</h3>
@@ -143,6 +143,30 @@
             </div>
             <div class = "main-headers-line"></div>
         </div>
+        <form class="m-content comment-form" action = "?" method = "post" id=addcomment>               
+            <input type = "hidden" name = "idarticle" value = " ">
+            <textarea class = "comment-textarea" rows="10" id = "comment" name = "comment" data-provide="markdown" placeholder = "Напишите свой комментарий!"></textarea>	
+            <button class = "btn_1">Добавить коммнтарий</button>  
+       </form>
+        <div class="comment m-content">
+            <div class="comment-person-pl">
+                <div>
+                    <img src="../avatars/ava-def.jpg" alt="ava"/>
+                </div> 
+                <div>
+                    Casades<br>
+                    2021/05/05
+                </div> 
+            </div>
+            <div class="comment-text">
+                Не так давно завершились сьёмки третей полнометражной киноленты по мотивам сверхпопулярной серии файтингов - Mortal Kombat. Выход картины на большой экран обещают в конце зимы 2021 года. По такому случаю вспомним все предыдущие многочисленные экранные воплощения Смертельной битвы, которых за более чем 25 летнюю историю вселенной набралось не мало. Кстати, если я что-то пропустил - дайте знать в комментариях. 
+                Мультфильм Mortal Kombat: The Journey Begins (Смертельная битва: Путешествие начинается) 
+                
+                Mortal Kombat: The Journey Begins Самая первая экранизация уже очень популярной на тот момент видеоигры вышла в конце лета 1995 года. Mortal Kombat: The Journey Begins - это 39-минутный мультфильм сюжет которого раскрывал суть вселенной Смертельной битвы. Три человека: актёр Джонни Кейдж, монах Лю Канг и полицейский Соня Блейд, под разными предлогами попадают на загадочный корабль. Они не подозревают, что были избраны для участия в многовековом мистическом турнире в котором на кон поставлена свобода Земного мира. 
+            </div>    
+        </div> 
+        <button class="comment-ans btn_1">Ответы (2)</button>
+        <div class = "m-content comment-line"></div> 
     </main> 
     
     <footer>
