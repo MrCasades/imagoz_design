@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;/*параметры рамки*/
     max-width: 100%;
-    background: #FFF8DC;
+    background: linear-gradient(to top left, #d8b93b, #fefcea);
 }
 
 input{
@@ -48,7 +48,7 @@ input{
 }
 
 .main-headers-place{
-    background: #1e90ff;
+    background: linear-gradient(to top, #1e90ff, #FFFFFF);
     border: 1px solid rgba(30, 144, 255, 1);
     width: 20%;
     height: 10%;
@@ -59,6 +59,12 @@ input{
     font-size: 1.2rem;
     color: white;
     border-radius: 10px 10px 0px 0px;
+    text-shadow: 1px 1px 2px black, 0 0 3px black;
+    z-index: 9;
+}
+
+.main-headers-place:hover{
+    background: linear-gradient(to top, #FFFFFF, #1e90ff);
 }
 
 .main-headers-place a{
@@ -69,6 +75,7 @@ input{
 .main-headers-subplace{
     background: #FFFFFF;
     border: 1px solid rgba(30, 144, 255, 1);
+    text-shadow: 1px 1px 2px gray, 0 0 3px gray;
     width: 20%;
     height: 10%;
     padding-left: 1%;
@@ -99,9 +106,10 @@ input{
 .main-headers-line{
     width: 90%;
     height: 0;
+    background: #1e90ff;
     border: 3px solid rgba(30, 144, 255, 1);
-    
-    /* margin-left: auto; */
+    margin-top: -0.3%; 
+    /* margin-left: 0.5%; */
     flex-shrink: 0;
     flex-grow: 0;
     transform: rotate(180deg);
