@@ -27,6 +27,8 @@ function close() {
 
 $(document).ready(function() {
 
+    //Форма авторизации
+
     $("#auth").click(function(){
         $(".authorization-form").fadeIn(1000);
     })
