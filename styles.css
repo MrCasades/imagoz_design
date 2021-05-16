@@ -6,7 +6,8 @@ body{
     margin: 0;
     padding: 0;/*параметры рамки*/
     max-width: 100%;
-    background: linear-gradient(to top left, #d8b93b, #fefcea);
+    background: #fefcea;
+    /* background: linear-gradient(to top left, #1e90ff, #fefcea); */
 }
 
 input{
