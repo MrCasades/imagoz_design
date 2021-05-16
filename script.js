@@ -25,8 +25,14 @@ function close() {
   }
 }
 
-//owl-carousel
 $(document).ready(function() {
+
+    $("#auth").click(function(){
+        $(".authorization-form").fadeIn(1000);
+    })
+    
+
+    //owl-carousel
  
     $(".owl-carousel").owlCarousel({
         center: true,

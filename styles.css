@@ -211,28 +211,54 @@ header .navigation-line{
 }
 
 header .authorization-form{
+    display: none;
+    position: fixed;
     font-family: Arial;
+    top: 20%;
+    left: 1%;
     /* background: #1e90ff; */
-    width: 23%;
-    height: 4rem;
-    padding: 15px;
+    width: 30%;
+    height: 10rem;
+    padding: 10px;
     margin-left: 50%;
     margin-top: -40px;
     background: #1e90ff;
-    opacity: 0.7;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 15;
+}
+
+header .authorization-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+header .authorization-form .close-btn{
+    color:#fefcea;
+    cursor: pointer;
+    margin-left: 95%;
 }
 
 header .authorization-form .send{
+    display: flex;
+    flex-direction: column;
     background: #1e90ff;
-    padding: 3px;
+    margin-top: 0.2rem;
     height: 1.8rem; 
     border-radius: 5px;
 }
 
+header .authorization-form .btn_1{
+    width: 5rem;
+}
+
 header .authorization-form input{
    text-align: center; 
+   margin-bottom: 5px;
 }
+
+header .authorization-form .reg-group {
+    margin-top: 3rem;
+} 
 
 header .authorization-form .reg-group a {
     color: #ffff;
