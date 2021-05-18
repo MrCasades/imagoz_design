@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel= "stylesheet" type="text/css">
+    <link href="adpt-styles.css" rel= "stylesheet" type="text/css">
+    <link href="menu.css" rel= "stylesheet" type="text/css">
+    <link rel="stylesheet" href="./OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href = ".."><img src="logomain.png" alt="logo"/></a>
+
+            <div class="menu-container">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#link"><button>Рубрики</button></a>
+                            <ul>
+                                <li><a href="#link">Раздел 1</a></li>
+                                <li><a href="#link">Раздел 2</a></li>
+                                <li><a href="#link">Раздел 3</a></li>
+                                <li><a href="viewcategory/index.html">games</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#gallery">поиск</a></li>
+                        <li class="menu-item"><a href="#communication">о нас</a></li>
+                        <li class="menu-item"><a href="#communication">обратная связь</a></li>
+                        <li class="menu-item"><a id="auth" href="#" >Авторизация</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="authorization-form">
+                <div class=close-btn>x</div>
+                <form>  
+                    <div class="send">
+                        <input type="text" placeholder="e-mail" name = "your_name" id = "your_name">
+                        <input type="password" placeholder="password" name = "password" id = "password">
+                        <button class="btn_1">Вход</button>
+                    </div>
+                    <div class="reg-group">
+                        <a href="#article">Регистрация</a> 
+                        <a href="#article">Забыли пароль</a>
+                    </div>  
+                </form>
+            </div> 
+            
+        
+    </header>
+    <div class="subheader"></div>
+
+    <main>
+        <!-- Рекламный блок -->
+        
+        <div class = "main-headers">
+            <div class = "headers-places"> 
+                <div class = "main-headers-place"><a href = "viewallnews/index.html">Новостная лента</a></div>
+                <div class = "main-headers-place"><a href = "viewfullnewstop/index.html">Рейтинг новостей</a></div>
+                <div class = "main-headers-txtplace">Новости игровой индустрии, высоких технологий и популярной науки</div>
+            </div>
+            <div class = "main-headers-line"></div>
+        </div>
+
+        <div class = "newsblock m-content">
+            <a href = "viewnews/index.html" class = "post-place-1" style="background-image: url(images/img-1.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Games</span>
+                </div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </a>
+            <div class = "post-place-1" style="background-image: url(images/img-2.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Games</span>
+                </div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из разнообразного количества слов разной длинны</div>
+            </div>
+            <div class = "post-place-1" style="background-image: url(images/img-3.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Длинная рубрика</span>
+                </div>
+                <div class = "post-bottom-1"> Краткий заголовок</div>
+            </div>
+            <div class = "post-place-1" style="background-image: url(images/img-4.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Длинная рубрика</span>
+                </div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-1" style="background-image: url(images/img-5.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Длинная рубрика</span>
+                </div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-1" style="background-image: url(images/img-6.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Длинная рубрика</span>
+                </div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-1" style="background-image: url(images/img-7.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Длинная рубрика</span>
+                </div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-1" style="background-image: url(images/img-8.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Длинная рубрика</span>
+                </div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-1" style="background-image: url(images/img-4.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Длинная рубрика</span>
+                </div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+        </div>
+        
+        <!-- Рекламный блок -->
+        
+        <div class = "main-headers">
+            <div class = "headers-places"> 
+                <div class = "main-headers-txtplace">Новости наших партнёров</div>
+            </div>
+            <div class = "main-headers-line"></div>
+        </div>
+        <div class="gallery-place">
+        <!-- Мир тесен -->
+        <div id="unit_95706"><a href="http://mirtesen.ru/" >Новости МирТесен</a></div>
+            <script type="text/javascript" charset="utf-8">
+            (function() {
+                var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
+                sc.src = '//news.mirtesen.ru/data/js/95706.js'; sc.charset = 'utf-8';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
+            }());
+            </script> 
+        </div>
+        
+        <!-- Рекомендации пользователей -->
+        <div class = "main-headers">
+            <div class = "headers-places"> 
+                <div class = "main-headers-place">Пользователи рекомендуют</div>
+                <div class = "main-headers-txtplace">Статьи, которые порекомендовали для главной страицы!</div>
+            </div>
+            <div class = "main-headers-line"></div>
+        </div>
+
+        <div class = "main-post m-content">
+            <div class = "post-place-2" style="background-image: url(images/img-1.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Games</span>
+                </div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-2.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Мир игр</span>
+                </div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из разнообразного количества слов разной длинны</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-3.jpg)">
+                <div class = "post-top-1">
+                    <p>05/07/2020</p>
+                    <span class="post-rubrics">Длинная рубрика</span>
+                </div>
+                <div class = "post-bottom-1"> Краткий заголовок</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-4.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-5.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-6.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+        </div>
+
+        <!-- Магазин игр -->
+   
+        <div class = "main-headers">
+            <div class = "headers-places"> 
+                <div class = "main-headers-place">Отражение дня</div>
+                <div class = "main-headers-txtplace">Что-то забавное, занимательное, любопытное</div>
+            </div>
+            <div class = "main-headers-line"></div>
+        </div>
+        <div class="gallery-place">
+            <div class="owl-carousel owl-theme">
+                <div class = "day-reflection" style="background-image: url(images/img-1.jpg)">
+                    <div class = "post-top-1">05/07/2020</div>
+                    <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+                </div>
+                <div class = "day-reflection" style="background-image: url(images/img-2.jpg)">
+                    <div class = "post-top-1">05/07/2020</div>
+                    <div class = "post-bottom-1"> Заголовок, состоящий из разнообразного количества слов разной длинны</div>
+                </div>
+                <div class = "day-reflection" style="background-image: url(images/img-3.jpg)">
+                    <div class = "post-top-1">05/07/2020</div>
+                    <div class = "post-bottom-1"> Краткий заголовок</div>
+                </div>
+                <div class = "day-reflection" style="background-image: url(images/img-4.jpg)">
+                    <div class = "post-top-1">05/07/2020</div>
+                    <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+                </div>
+                <div class = "day-reflection" style="background-image: url(images/img-5.jpg)">
+                    <div class = "post-top-1">05/07/2020</div>
+                    <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+                </div>
+                <div class = "day-reflection" style="background-image: url(images/img-6.jpg)">
+                    <div class = "post-top-1">05/07/2020</div>
+                    <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Рекламный блок -->
+
+        <div class = "main-headers">
+            <div class = "headers-places"> 
+                <div class = "main-headers-place">Промоушен</div>
+                <div class = "main-headers-subplace">Рейтинг промоушена</div>
+                <div class = "main-headers-txtplace">Материалы от наших уважаемых рекламодателей</div>
+            </div>
+            <div class = "main-headers-line"></div>
+        </div>
+
+        <div class = "main-post m-content">
+            <div class = "post-place-2" style="background-image: url(images/img-1.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-2.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из разнообразного количества слов разной длинны</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-3.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Краткий заголовок</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-4.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-5.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-6.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+        </div>
+
+        <!-- Рекламный блок -->
+        
+        <div class = "main-headers">
+            <div class = "headers-places"> 
+                <div class = "main-headers-place">Статьи</div>
+                <div class = "main-headers-subplace">Рейтинг статей</div>
+                <div class = "main-headers-txtplace">Масштабные публикации, рейтинги, заметки</div>
+            </div>
+            <div class = "main-headers-line"></div>
+        </div>
+
+        <div class = "main-post m-content">
+            <div class = "post-place-2" style="background-image: url(images/img-1.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-2.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из разнообразного количества слов разной длинны</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-3.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Краткий заголовок</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-4.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-5.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+            <div class = "post-place-2" style="background-image: url(images/img-6.jpg)">
+                <div class = "post-top-1">05/07/2020</div>
+                <div class = "post-bottom-1"> Заголовок, состоящий из нескольких слов</div>
+            </div>
+        </div>
+
+        <div class = "footer-prev">
+            <div>
+                <h4>Наш Дзен-канал</h4>
+                <div>
+                    <a href="https://zen.yandex.ru/imagoz" rel = "nofollow"><img width = "75%" height = "75%" src="./zen-icon.png" alt="Наш Дзен-канал" title="zen.yandex.ru/imagoz"></a>
+                </div>
+            </div>
+            <div>
+                <h4>Наше сообщество ВКонтакте</h4>
+                <script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script>
+                <!-- VK Widget -->
+                <div id="vk_groups"></div>
+                   <script type="text/javascript">
+                   VK.Widgets.Group("vk_groups", {mode: 3, no_cover: 1, width: "160"}, 54027668);
+               </script>
+            </div>
+            <div class="descr-txt-place">
+                  <h4>О проекте IMAGOZ</h4>
+                  <div class="mp-description">
+                    <p>Добро пожаловать на портал <strong>IMAGOZ</strong> (от лат. imago - отражение)! Здесь мы объеденили в общую картину мира тему высоких технологий (hi-tech), индустрию компьютерных игр, 
+                    взгляд на самые необычные современные гаджеты, достижения науки и техники и насыщенную событиями жизнь интернета.</p>
+                    
+                    <p>Такой подход является на первый взгляд несколько 
+                    нестандартным, но мы считаем, что все эти тематики могут органично сочетаться, заинтересовав широкий круг разносторонне развитых читателей, которые хотят быть на острие 
+                    прогресса!</p>
+        
+                    <p>Создатели портала <strong>IMAGOZ</strong> собирают самые интересные и актуальные новости и подают их в оригинальном авторском отражении. Мы не стремимся полностью охватить этот необъятный
+                    мир Hi-tech, науки, игр и прочего, но публикуем самые интересные материалы по этим темам.</p>
+                    
+                    <p>Стоит также отметить, что портал <strong>IMAGOZ</strong> возрождает такой казалось бы мёртвый в нашей стране своеобразный  жанр в публицистике, как <strong>"игрожур"</strong>. Игровая журналистика со своим своеобразным, самобытным 
+                    стилем изложения материала для многих связана с самыми тёплыми "ламповыми" воспоминаниями из 90-х, начала 2000 годов.</p> 
+                    
+                    <p><strong>IMAGOZ</strong> вбирает в себя лучшие черты этого условного жанра и порождает новое явление - <strong>Постигрожур</strong>. Постигрожур - публикации об играх и тому что интересно геймерам без "игрожура"!</p> 
+                  </div>
+              </div>
+        </div>
+
+        
+
+    </main> 
+    
+    <footer>
+
+        <div class="footer" align="center">
+            <p><a href="<?php echo '//'.MAIN_URL;?>/sitemap/">Карта сайта</a></p>
+            <p>Copyright © 2019 MrCasades. All rights reserved.</p>
+        </div>
+
+        <script src="jquery-3.5.1.min.js"></script>
+        <script src="anime.min.js"></script>
+        <script src="./OwlCarousel/dist/owl.carousel.min.js"></script>
+        <script src="script.js"></script> 
+
+    </footer>
+</body>
+</html>
