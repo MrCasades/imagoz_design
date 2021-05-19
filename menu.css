@@ -1,6 +1,6 @@
 .menu-container {
     width: 100%;
-    margin: 90px 10%;
+    margin: 50px 5%;
     /* background: #337AB7; */
 }
 .menu-mobile:after {
@@ -48,6 +48,7 @@
     padding: 0;
     margin: 0;
     transition: .2s ease-in-out;
+    border-radius: 10px;
 }
 .menu > ul > li a,
 .menu-mobile {
@@ -55,8 +56,9 @@
     padding: 20px 30px;
     display: block;
     color: #FFF;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 3px black;
     font-family: 'Roboto Condensed', sans-serif;
     transition: .2s ease-in-out;
 }
@@ -68,6 +70,7 @@
 }
 .menu > ul > li:hover a {
     color: #000;
+    text-shadow: 1px 1px 2px white, 0 0 3px black;
 }
 .menu > ul > li > ul {
     display: none;
@@ -148,7 +151,7 @@
 }
 @media only screen and (max-width: 768px) {
     .menu-container {
-        width: 100%;
+        width: 25%;
     }
     .menu-mobile {
         display: block;
@@ -166,18 +169,20 @@
         background: #BFE2FF;
         border-top: 2px solid #FFF;
         border-bottom: 2px solid #FFF;
+        border-radius: 10px;
     }
     .menu > ul > li a {
         padding: 20px;
         width: 100%;
         display: block;
         color: #000;
+        text-shadow: none;
     }
     .menu > ul > li > ul {
         position: relative;
     }
     .menu > ul > li > ul.normal-sub {
-        width: 100%;
+        width: 35%;
         
     }
     .menu > ul > li > ul > li {
