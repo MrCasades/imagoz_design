@@ -363,18 +363,36 @@ article .article-rating{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 50%;
+    margin-left: 40%;
     margin-top: 2%;
-    width: 15%; 
+    height: 2rem;
+    width: 20%; 
+    font-size: 2rem;
 }
 
-article .article-rating img{
+.fa-eye{
+    color:rgba(30, 144, 255, 1);
+}
+
+.fa-heartbeat{
+    color: red;
+}
+
+.fa-check-square-o{
+    color: yellow;
+}
+
+article .article-rating i{
+    margin-left: 10%;
+}
+
+/* article .article-rating img{
     margin: 1% 2% 2% 1%;
     padding-left: 3%;
     width: 35%;
     height: 35%;
     
-}
+} */
 
 article h1{
     font-size: 5rem;
