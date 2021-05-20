@@ -382,6 +382,10 @@ article .article-rating{
     color: yellow;
 }
 
+.fa-thumbs-up{
+    color: #1e90ff;
+}
+
 article .article-rating i{
     margin-left: 10%;
 }
