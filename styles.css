@@ -432,10 +432,6 @@ article .like-place .btn_vot:hover{
     color:#FFFFFF;
 }
 
-article .like-pl-top{  
-    display: flex;
-}
-
 article .tags-place{
     display: flex;
     padding-bottom: 1rem;
@@ -456,7 +452,7 @@ article .tags-place .tgs:hover{
 }
 
 article .recomm-place{
-    margin-left: 60%;
+    margin-left: 70%;
 }
 
 .comment{
