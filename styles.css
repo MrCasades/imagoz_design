@@ -410,14 +410,9 @@ article .a-content{
 }
 
 article .like-place{
-    margin-top: 2%;
+    margin-top: 1%;
     font-size: 2rem;
     max-height: 25rem;
-}
-
-article .tags-place{
-    display: flex;
-    padding-bottom: 1rem;
 }
 
 article .like-place .btn_vot{
@@ -437,6 +432,16 @@ article .like-place .btn_vot:hover{
     color:#FFFFFF;
 }
 
+article .like-pl-top{  
+    display: flex;
+}
+
+article .tags-place{
+    display: flex;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+}
+
 article .tags-place .tgs{
     margin-left: 1%; 
     background: #1e90ff; 
@@ -446,13 +451,12 @@ article .tags-place .tgs{
 }
 
 article .tags-place .tgs:hover{
-    
     background: #FFFFFF; 
     color: #1e90ff;
 }
 
 article .recomm-place{
-    display: flex;
+    margin-left: 60%;
 }
 
 .comment{
