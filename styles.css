@@ -370,6 +370,8 @@ article .article-rating{
     font-size: 2rem;
 }
 
+/*Цвета иконок*/
+
 .fa-eye{
     color:rgba(30, 144, 255, 1);
 }
@@ -383,7 +385,8 @@ article .article-rating{
 }
 
 .fa-thumbs-up{
-    color: #1e90ff;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 3px black;
 }
 
 article .article-rating i{
