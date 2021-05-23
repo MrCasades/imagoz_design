@@ -167,8 +167,8 @@ header .authorization-form{
     top: 20%;
     left: 1%;
     /* background: #1e90ff; */
-    width: 17Wrem;
-    height: 10rem;
+    width: 17rem;
+    height: 12rem;
     padding: 10px;
     margin-left: 50%;
     margin-top: -40px;
@@ -186,6 +186,7 @@ header .authorization-form .close-btn{
     color:#fefcea;
     cursor: pointer;
     margin-left: 95%;
+    font-size: 1.5rem;
 }
 
 header .authorization-form .send{
@@ -198,8 +199,7 @@ header .authorization-form .send{
 }
 
 header .authorization-form .btn_1{
-    width: 5rem;
-    margin-left: 4.5rem;
+    margin-top: 1rem;
 }
 
 header .authorization-form input{
@@ -208,7 +208,7 @@ header .authorization-form input{
 }
 
 header .authorization-form .reg-group {
-    margin-top: 3rem;
+    margin-top: 4rem;
 } 
 
 header .authorization-form .reg-group a {
