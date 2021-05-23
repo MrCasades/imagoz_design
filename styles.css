@@ -167,7 +167,7 @@ header .authorization-form{
     top: 20%;
     left: 1%;
     /* background: #1e90ff; */
-    width: 30%;
+    width: 17Wrem;
     height: 10rem;
     padding: 10px;
     margin-left: 50%;
@@ -199,6 +199,7 @@ header .authorization-form .send{
 
 header .authorization-form .btn_1{
     width: 5rem;
+    margin-left: 4.5rem;
 }
 
 header .authorization-form input{

@@ -48,8 +48,13 @@ $(document).ready(function() {
 
     //Форма авторизации
 
-    $("#auth").click(function(){
+    $("#auth").click(function(e){
         $(".authorization-form").fadeIn(1000);
+        e.preventDefault();
+    })
+
+    $(".close-btn").click(function(e){
+        $(".authorization-form").fadeOut(1000);
     })
     
 
